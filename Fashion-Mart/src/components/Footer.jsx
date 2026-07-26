@@ -9,7 +9,6 @@ const Footer = () => {
 
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
 
-          {/* Left */}
           <div className="text-center lg:text-left">
             <h2 className="text-3xl font-black uppercase text-white sm:text-4xl lg:text-5xl">
               FASHIONMART
@@ -20,7 +19,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Center */}
           <div className="flex flex-wrap justify-center gap-6 text-xs font-semibold uppercase tracking-wider text-zinc-500">
             <a href="#" className="hover:text-red-500 transition">
               Terms
@@ -36,7 +34,6 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Right */}
           <div className="flex justify-center gap-4 lg:justify-end">
             <a
               href="#"

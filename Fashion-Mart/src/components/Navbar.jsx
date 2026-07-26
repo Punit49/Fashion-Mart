@@ -1,4 +1,3 @@
-// Navbar.jsx
 import { useContext } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { MdLogout } from "react-icons/md";

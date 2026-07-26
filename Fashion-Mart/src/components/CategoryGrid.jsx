@@ -11,7 +11,6 @@ import { NavLink } from "react-router";
 export default function CategoryGrid() {
   return (
     <section className="bg-[#131313] p-4 font-['Anybody'] md:p-12">
-      {/* Section Title */}
       <div className="mb-8">
         <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-[#c00100]">
           — Shop By Category

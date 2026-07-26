@@ -40,7 +40,6 @@ export default function ProductInfo({ product, category }) {
       </button>
       )}
 
-      {/* Info cards */}
       <div className="grid grid-cols-3 gap-3 mb-6">
         <div className="border-2 border-[#e5e2e1]/20 px-3 py-4 flex flex-col items-center text-center gap-1">
           <MdLocalShipping className="text-[#c00100] text-xl mb-1" />

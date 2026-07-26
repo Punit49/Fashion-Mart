@@ -1,6 +1,5 @@
 import { NavLink, useNavigate } from "react-router";
 
-// Breadcrumb.jsx
 export default function Breadcrumb({category, title}) {
   const navigate = useNavigate();
   return (

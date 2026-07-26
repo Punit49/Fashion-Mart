@@ -1,4 +1,3 @@
-// SearchBar.jsx
 import { useContext, useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { MyStore } from "../context/MainContext";

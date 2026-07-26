@@ -84,7 +84,6 @@ const RegisterForm = () => {
             )}
           </div>
 
-          {/* Email */}
           <div>
             <div className="h-16 rounded-2xl bg-[#1E1E1E] border border-zinc-800 focus-within:border-red-500 transition flex items-center px-5">
               <FiMail className="text-zinc-500 text-xl flex-shrink-0" />
@@ -110,7 +109,6 @@ const RegisterForm = () => {
               }
           </div>
 
-          {/* Password */}
           <div>
             <div className="h-16 rounded-2xl bg-[#1E1E1E] border border-zinc-800 focus-within:border-red-500 transition flex items-center px-5">
               <FiLock className="text-zinc-500 text-xl flex-shrink-0" />
@@ -156,7 +154,6 @@ const RegisterForm = () => {
             }
           </div>
 
-          {/* Confirm Password */}
           <div>
             <div className="h-16 rounded-2xl bg-[#1E1E1E] border border-zinc-800 focus-within:border-red-500 transition flex items-center px-5">
               <FiLock className="text-zinc-500 text-xl flex-shrink-0" />
@@ -180,7 +177,6 @@ const RegisterForm = () => {
             }
           </div>
 
-          {/* Button */}
           <button
             type="submit"
             className="w-full h-16 rounded-2xl bg-red-500 hover:bg-red-600 transition text-black font-bold uppercase tracking-widest cursor-pointer"
@@ -189,7 +185,6 @@ const RegisterForm = () => {
           </button>
         </form>
 
-        {/* Footer */}
         <p className="text-center text-zinc-500 mt-8">
           Already have an account?{" "}
           <NavLink

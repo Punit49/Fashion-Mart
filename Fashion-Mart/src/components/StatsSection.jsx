@@ -1,4 +1,3 @@
-// StatsSection.jsx
 export default function StatsSection() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 bg-[#131313] border-b-2 border-[#e5e2e1] font-['Anybody']">

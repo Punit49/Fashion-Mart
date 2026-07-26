@@ -1,4 +1,3 @@
-// About.jsx
 export default function About() {
   return (
     <div className="bg-[#131313] min-h-screen flex flex-col font-['Anybody']">
