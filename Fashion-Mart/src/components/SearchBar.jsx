@@ -24,7 +24,7 @@ export default function SearchBar() {
     }, [ category ])
 
   return (
-    <div className="flex items-center border-2 border-[#e5e2e1]/20 focus-within:border-[#c00100] transition-colors px-3 py-2 w-[70%]">
+    <div className="flex items-center border-2 border-[#e5e2e1]/20 focus-within:border-[#c00100] transition-colors px-3 py-2 w-[90%] sm:w-[80%]">
       <input
         value={search}
         onChange={(e) => handleSearch(e.target.value)}

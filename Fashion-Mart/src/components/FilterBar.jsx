@@ -35,9 +35,9 @@ const FilterBar = () => {
     }
 
     return (
-        <div className="px-4 md:px-12 py-6 border-y-2 border-[#e5e2e1]/10 flex   justify-between  w-full font-['Anybody']">
+        <div className="px-4 md:px-12 py-6 border-y-2 border-[#e5e2e1]/10 flex   justify-between  w-full font-['Anybody'] flex-col sm:flex-row gap-6">
 
-            <div className='w-full flex flex-col items-start gap-5'>
+            <div className='w-full flex flex-col items-start gap-5 flex-wrap'>
                 <SearchBar />
 
                 {filter && (
