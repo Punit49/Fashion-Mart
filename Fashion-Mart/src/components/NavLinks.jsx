@@ -15,7 +15,7 @@ const NavLinks = () => {
     ];
 
     return (
-        <div className="flex gap-6">
+        <div className="flex gap-6 flex-wrap">
         {
             links.map((link) => {
             return (
